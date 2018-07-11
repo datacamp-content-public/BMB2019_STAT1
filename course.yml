@@ -1,4 +1,5 @@
-title: Course Title Here
-description: A description of the course.
-programming_language: r
-from: 'r-base-prod:v1.0.0'
+title            : BMB STAT1
+description      : Online element of the BMB STAT course.
+university       : Imperial College London
+difficulty_level : 2
+time_needed      : 1 hour

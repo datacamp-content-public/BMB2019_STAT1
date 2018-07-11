@@ -1,118 +1,33 @@
-# Course Title By The Instructor
+# DataCamp Template Course
+<a href=https://www.datacamp.com//teach/repositories/114984575/go target="_blank"><img src="https://s3.amazonaws.com/assets.datacamp.com/img/github/content-engineering-repos/course_button.png" width="150"></a>
+<a href=https://www.datacamp.com//teach/repositories target="_blank"><img src="https://s3.amazonaws.com/assets.datacamp.com/img/github/content-engineering-repos/dashboard_button.png" width="150"></a>
 
-Specs deadline: YYYY-MM-DD
+This an automatically generated <a href=https://www.datacamp.com target="_blank">DataCamp</a> course. You can start from these template files to create your own course.
 
-## Course development resources
+Changes you make to this GitHub repository are automatically reflected in the linked DataCamp course. This means that you can enjoy all the advantages of version control, collaboration, issue handling ... of GitHub.
 
-* Course admin page: https://www.datacamp.com/teach/
-* Authoring documentation: https://authoring.datacamp.com
+## Workflow
 
-*Please read the [course design process description](https://authoring.datacamp.com/courses/design)
-and complete these steps in the `README.md` file in your course repository.
-If you need assistance, please speak with your Curriculum Lead.*
+1. Edit the markdown and yml files in this repository. You can
+   * Use DataCamp's <a href="https://www.datacamp.com/teach/documentation#tab_teach_editor">Teach Editor</a>
+   * Use GitHub's online editor
+   * Use <a href=https://git-scm.com/ target="_blank">git</a> locally and push your changes
+2. Check out your build attempts on the <a href=https://www.datacamp.com//teach/repositories target="_blank">Dashboard</a>.
+3. Check out your automatically updated <a href=https://www.datacamp.com/teach/repositories/114984575/go target="_blank">course on DataCamp</a>
 
-## Step 1: Brainstorming
+## Getting Started
 
-### 1. What problem(s) will students learn how to solve?
+A DataCamp course consists of two types of files:
 
-### 2. What techniques or concepts will students learn?
+- `course.yml`, a <a href=http://docs.ansible.com/ansible/YAMLSyntax.html target="_blank">YAML-formatted file</a> that's prepopulated with some general course information.
+- `chapterX.md`, a markdown file with:
+   - a YAML header containing chapter information.
+   - markdown chunks representing DataCamp Exercises.
 
-### 3. What technologies, packages, or functions will students use?
+To learn more about the structure of a DataCamp course, check out the <a href=https://www.datacamp.com//teach/documentation#tab_course_structure target="_blank">documentation</a>.
 
-### 4. What terms or jargon will you define?
+Every DataCamp exercise consists of different parts, read up about them <a href=https://www.datacamp.com//teach/documentation#tab_code_exercises target="_blank">here</a>. A very important part about DataCamp exercises is to provide automated personalized feedback to students. In R, these so-called Submission Correctness Tests (SCTs) are written with the <a href=https://github.com/datacamp/testwhat target="_blank">`testwhat`</a> package. SCTs for Python exercises are coded up with <a href=https://github.com/datacamp/pythonwhat target="_blank">`pythonwhat`</a>. Check out the GitHub repositories' wiki pages for more information and examples.
 
-### 5. What analogies or heuristics will you use?
+Want to learn more? Check out the <a href=https://www.datacamp.com//teach/documentation target="_blank">documentation</a> on teaching at DataCamp.
 
-### 6. What mistakes or misconceptions do you expect?
-
-### 7. What datasets will you use?
-
-## Step 2: Who Is This Course for?
-
-Link to [learner personas](https://authoring.datacamp.com/courses/design/personas.html)
-
-* Student 1: discussion.
-* Student 2: discussion.
-* Student 3: discussion.
-
-## Step 3: What Will Learners Do Along the Way?
-
-Write full descriptions of a couple of significant exercises to show how far learners are likely to get.
-
-### Title of Exercise
-
-Describe the exercise here, including the learning objectives, concepts taught, and any other important details.
-
-**Solution**
-
-```
-Include the code that you expect the students to write by the end of the course.
-It should typically be 2 or 3 lines.
-```
-
-### Other Exercises
-
-Write brief descriptions of 10 to 15 more exercises throughout the course.
-After this step you should have a clear idea of the flow of the course.
-
-#### Exercise title 1
-
-- Describe the exercise.
-- Mention the learning objectives.
-- Two or three bullets points is enough.
-
-**Solution**
-
-```
-Solution code here.
-It should typically be 2 or 3 lines.
-```
-
-#### Exercise title 2
-
-- Describe the exercise.
-- …
-
-**Solution**
-
-```
-Solution code here.
-```
-
-## Step 4: How Are the Concepts Connected?
-
-*Remind yourself about [course terminology](https://authoring.datacamp.com/courses/design#terminology-and-structure), then describe the flow of the course.*
-
-- Chapter 1
-  - Lesson 1.1
-  - Lesson 1.2
-  - Lesson 1.3
-- Chapter 2
-  - Lesson 2.1
-  - Lesson 2.2
-  - Lesson 2.3
-
-The datasets are:
-
-- `path/to/dataset-1`: data set 1
-- `path/to/dataset-2`: data set 2
-
-## Step 5: Course Overview
-
-**Course Description**
-
-One-paragraph description of the course.
-
-**Learning Objectives**
-
-- Objective 1
-- Objective 2
-- Objective 3
-
-**Prerequisites**
-
-*Which DataCamp courses cover topics that a student should be familiar with before attempting this course? Here are some examples:*
-
-- [Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
-- [Intermediate R](https://www.datacamp.com/courses/intermediate-r)
-- [Intro to the Tidyverse](https://www.datacamp.com/courses/introduction-to-the-tidyverse)
+*Happy teaching!*
